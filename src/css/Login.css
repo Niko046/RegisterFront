@@ -1,0 +1,56 @@
+.containerPrincipal {
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid blue;
+      padding: 40px;
+      background-color: white;
+  }
+  
+  .containerSecundario{
+    text-align: center;
+  }
+
+  header{
+    background-color: rgba(78, 12, 12, 0.904);
+    align-items: left;
+}
+
+header .logo{
+    margin: 0;
+    padding: 12px 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    align-items: left;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+img {
+  max-width: 8%;
+  max-height: 8%;
+ }
